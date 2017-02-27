@@ -2,10 +2,10 @@ Scale -1 1 1
 
 # All coodinate frames are right-handed
 
-LookAt 0 0 1    0 0 0   0 1 0 # Camera is at position [0,0,10], looking down the -z axis towards [0,0,0] with up vector +y
+LookAt 0 0 1    0 0 0   0 1 0 # Camera is at position [0,0,1], looking down the -z axis towards [0,0,0] with up vector +y
 Camera "orthographic"
 
-Sampler "lowdiscrepancy" "integer pixelsamples" [4]
+Sampler "lowdiscrepancy" "integer pixelsamples" [64]
 PixelFilter "box"
 
 Film "image" "integer xresolution" [511] "integer yresolution" [511] 
